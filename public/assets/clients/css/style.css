@@ -1,0 +1,39 @@
+/* cart.blade.php */
+
+.cart-table th, .cart-table td {
+    text-align: center;
+}
+.cart-table img {
+    width: 100px;
+    height: auto;
+}
+.cart-footer {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-top: 1px solid #dee2e6;
+}
+
+/* thankYou.blade.php */
+
+.thank-you-container {
+    text-align: center;
+    padding: 50px;
+}
+.thank-you-message {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+
+

@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.container-fluid {
+    height: 100%;
+}
+.row {
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.sidebar {
+    height: 100%;
+    background-color: #343a40;
+    color: white;
+    min-height: 100vh; /* Luôn luôn đủ cao */
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    flex-grow: 1; 
+}
+.btn-custom {
+    border-radius: 20px;
+}
+
+
+.order-menu {
+    margin-bottom: 20px;
+}
+.order-menu a {
+    margin-right: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+.order-menu a:hover {
+    text-decoration: underline;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+
+
+.order-detail-table th, .order-detail-table td {
+    text-align: center;
+}
+
+.total-price {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
